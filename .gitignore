@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Data (do not upload)
+data/raw/
+data/processed/
+*.csv
+*.pkl
+
+# Trained model files (do not upload)
+model/bert_sentiment/
+*.bin
+*.pt
+
+# HuggingFace cache
+.cache/
+**/.cache/
+
+# OS junk
+Thumbs.db
+.DS_Store
